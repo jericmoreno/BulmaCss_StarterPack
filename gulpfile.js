@@ -43,7 +43,7 @@ gulp.task('fonts', function(){
 
 // Move Font Awesome CSS to src/css
 gulp.task('fa', function(){
-    return gulp.src('node_modules/@fortawesome/fontawesome-free/css/font-awesome.min.css')
+    return gulp.src('node_modules/@fortawesome/fontawesome-free/css/all.min.css')
     .pipe(gulp.dest("src/css"));
 });
 
